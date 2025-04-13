@@ -4,3 +4,4 @@ batch_size: 16
 epochs: 3
 learning_rate: 2e-5
 output_dir: "./saved_model"
+file_path: "../Data/tweet_sentiment_dataset.csv"
