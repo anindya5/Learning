@@ -2,7 +2,7 @@ from transformers import BertTokenizer
 from sklearn.model_selection import train_test_split
 
 class DataProcessor:
-    def __init__(self, tokenizer_name='bert-base-uncased', max_length=128):
+    def __init__(self, tokenizer_name=model_name, max_length=max_length):
         self.tokenizer = BertTokenizer.from_pretrained(tokenizer_name)
         self.max_length = max_length
 
